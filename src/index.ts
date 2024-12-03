@@ -20,7 +20,7 @@ export default {
 			case '/random':
 				return new Response(crypto.randomUUID());
 			default:
-				return new Response('Not Found', { status: 404 });
+				return new Response('doudi');
 		}
 	},
 } satisfies ExportedHandler<Env>;
